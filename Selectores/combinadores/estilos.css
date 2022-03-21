@@ -1,0 +1,59 @@
+
+
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors#combinadores
+
+
+h2,h3{  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+}
+
+
+/* Combinador de descendientes
+    El combinador (espacio) selecciona los elementos que son descendientes del primer elemento.
+    
+    Sintaxis A B
+    Ejemplo .contenedor a se aplicara a todos los elementos <a> que esten dentro de un elemento .contenedor*/
+
+
+
+.contenedor a{
+    text-decoration: none;
+    color: firebrick;
+}
+
+/* Combinador de hijo
+El combinador > selecciona los elementos que son HIJOS DIRECTOS DEL PRIMER ELEMENTO.
+
+Sintaxis A > B
+Ejemplo: la regla .contenedor>a se aplicara a todos los elementos <a> que son hijos directos de un elemento . contenedor*/
+
+
+.contenedor>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Combinador de hermanos adyacentes H2 + P
+    El combinador + selecciona hermanos adyacentes. Esto quiere decir que el segundo elemento sigue directamente al primero y ambos comparten el mismo elemento padre.
+
+    Sintaxis A + B
+    Ejemplo: La regla h2 + p se aplicara a todos los elementos <p> que siguen directamente a un elemento <h2>
+ */
+
+h2 + p{
+    color: gold;
+}
+
+/* Combinador general de hermanos.
+    El combinador ~ selecciona hermanos. Esto quiere decir que el segundo elemento sigue al primero / No necesariamente de forma inmediata)
+    y ambos comparten el mismo elemento padre.
+    
+    Sintaxis A ~ B
+    Ejemplo: La regla p ~ span se aplicara a todos los elementos <span> que siguen a un elemento <p>*/
+
+h3~p{
+    color: indigo;
+}
+

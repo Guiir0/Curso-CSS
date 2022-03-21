@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 150px;
+}
+
+.box1{
+    background: steelblue;
+    margin-bottom: 10px;
+}
+
+.box2{
+    background: tomato;
+    padding-top: 20px;
+
+}
+
+
+
+/* NOTAS.
+-La suma del contenido padding y border vienen siendo el widht y height
+
+- Si a box1 le doy un widht de 200px ya no va a medir en este caso por defecto el 100% de su contenedor, ahora va a tener un widht ( un ancho especifico)
+
+- widht y height son requeridas si un elemento no tiene contenido.
+
+-Ya sabemos que el widht y heghit sirven para definir el ancho y el alto, pero estas propiedades no aplican para todos los elementos. ya que los elementos en linea se comportan diferente.
+
+Con margin auto podemos centrar elementos horizontalmente, Para centrar un elemento con MARGIN AUTO debe tener un widht definido y ser un elemento en bloque.
+En flexbox puede llegar a tener errores, Asique es mejor centrar con margin-right auto y margin-left auto (0 auto;)
+*/
+
+/* box- sizing: border box para que no aumente el tamaño de las cajas
+overflow: hidden para que todo lo que se desborde se esconda./

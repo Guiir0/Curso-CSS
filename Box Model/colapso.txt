@@ -1,0 +1,21 @@
+Los margenes verticales colapsan.
+
+Si tuvieramos un margin-buttom para un elemento y un margin-top para otro y los margenes
+se encuentran se sopalan. 
+
+Siempre se recomienda dar margin-botom al elemento de arriba e ir bajando el resto de elementos
+(Esto solo pasa en los margenes horizontales, en los verticales no pasan.
+
+
+Si chocan dos margenes se funciona y prevalese el mas alto.
+
+este problema se hacen entre padres e hijos
+
+Formas de solucionar
+
+padding-top 0.1px;
+border-top 1px solid transparent;
+
+
+
+

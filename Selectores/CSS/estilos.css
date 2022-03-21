@@ -1,0 +1,57 @@
+
+
+h2 {                   /* Selector de tipo */
+    color: steelblue;
+}
+
+nav {                   /* Selector de tipo / nav*/
+    border: 1px solid black;
+}
+
+.borde {                /* Selector de clase / .clase*/
+    border: 1px solid red;
+}
+
+#section {              /* Selector de id / #ID */
+    border: 1px solid green;
+}
+
+.titulo{                /* Selector de clase / .clase*/
+    text-align: center;
+}
+
+.😁 {               /* Selector de clase / .clase*/
+    color: darkblue;
+}
+
+.😂 {                  /* Selector de clase / .clase*/
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+[href]{                 /* Selector de atributo / [atributo]*/
+    text-decoration: none;
+}
+
+[href="https://alexcgdesign.com/inicio"]{
+    color: red;
+}
+
+[href^="hsttps"]{ /* ^ este simbolo indica que agarra el primer valor */
+    color: darkolivegreen;
+}
+
+[href$="org"]{ /* $ indica que agarra el ultimo */
+    background: steelblue;
+    color: white;
+}
+
+    /* selecciona x elemento con la palabra*/
+[href*="alexcgdesign"]{
+    background: violet;
+}
+
+/* https://developer.mozilla.org/es/docs/Web/CSS/Attribute_selectors */
+
+/* https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors */
+
